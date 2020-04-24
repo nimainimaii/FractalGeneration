@@ -48,13 +48,6 @@ class Fractal(object):
         y_min = self.y_range[0]+(self.zoomRate/2)
         return (x_max, x_min, y_max, y_min)
 
-    def sweep(self):
-        for x in np.arange(self.size[0]):
-            for y in np.arange(self.size[1]):
-                pass
-    
-    
-
 def hsv_to_rgb(h, s, v):
     if s == 0.0: return (v, v, v)
     i = int(h*6.) # XXX assume int() truncates!
