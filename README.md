@@ -1,2 +1,1 @@
-# fractal-generation
-Generating GIFs of zooming into the Mandelbrot set
+# Generating the mandelbrot set in python from scratch
